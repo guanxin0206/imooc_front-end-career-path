@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8' />
+		<title>作业表格布局</title>
+		<style>
+			ul{display: inline;}
+			.nav li{
+				list-style: none;
+				display: inline;
+			}
+			.sponsor li{
+				list-style: none;
+				display: inline;
+			}
+			form{
+				align:right;}
+
+			.news li{
+				list-style: none;
+				font-size: 15px;
+			}
+		</style>
+	</head>
+	<body>
+		<!--全局用表单结构-->
+		<table width="100%" cellspacing="0">
+			<!--表单头部-->
+			<thead>
+				<!--导航-->
+				<table cellspacing='0' width="100%">
+					<tr bgcolor="#E1F2F9">
+						<td valign='middle' >
+							<img src='images/logo.png'/ alt="logo">
+						</td>
+						<td>
+							<ul class='nav' align='center'>
+								<li>学校概况</li>
+								<li>机构设置</li>
+								<li>师资队伍</li>
+								<li>科学研究</li>
+								<li>招生就业</li>
+								<li>图书馆</li>
+								<li>校长邮箱</li>
+								<li>校园导航</li>
+							</ul>
+						</td>
+						<td>
+							<form >
+								快速通道
+								<select>
+								  <option value ="volvo">Volvo</option>
+								  <option value ="saab">Saab</option>
+								  <option value="opel">Opel</option>
+								  <option value="audi">Audi</option>
+								</select>
+							</form>
+						</td>
+					</tr>
+				</table>
+				<!--Banner-->
+				<tr><td ><img src='images/banner.jpg' alt="banner" height="300px" width="100%"></td></tr>
+			</thead>
+			<!--表单主体-->
+			<tbody>
+				<!--新闻-->
+				<tr align='center'>
+					<td>
+						<!--Nested table内嵌表格-->
+						<table width="65%" cellspacing="15px" align='center'>
+							<thead>
+								<tr>
+									<td><b>慕课快讯</b>&nbsp;&nbsp;<b>基层风采</b>&nbsp;&nbsp;<b>媒体聚焦</b>&nbsp;&nbsp;<b>慕课视频</b>&nbsp;&nbsp;>></td>
+									<td><b>慕课快讯</b>&nbsp;&nbsp;<b>基层风采</b>&nbsp;&nbsp;<b>媒体聚焦</b>&nbsp;&nbsp;<b>慕课视频</b>&nbsp;&nbsp;>></td>
+									<td></td>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td><ul class="news">
+										<li>> 慕课平台课程扩容 涵盖多个领域 12-30</li>
+										<li>> 李克强主持座谈会 葛优刘国梁被请进中南海 12-30</li>
+										<li>> 台军演习“歼灭”解放军 专家：自欺欺人 12-30</li>
+										<li>> 气象局停发霾预警？回应：正协商联合发布机制 12-30</li>
+										<li>> 独家：小米影业解散宣发部门 宣布成立一年后刹车 12-30</li>
+										<li>> “哑巴群众”开口说话 是稿件有误还是新闻造假？ 12-30</li>
+										<li>> 要置业，看看2017全球楼市掘金路线图 12-30</li>
+										<li>> 王健林与房地产越来越远？贾跃亭与房地产越来越近 12-30</li>
+										</ul>
+									</td>
+									<td><ul class="news">
+										<li>> 慕课平台课程扩容 涵盖多个领域 12-30</li>
+										<li>> 李克强主持座谈会 葛优刘国梁被请进中南海 12-30</li>
+										<li>> 台军演习“歼灭”解放军 专家：自欺欺人 12-30</li>
+										<li>> 气象局停发霾预警？回应：正协商联合发布机制 12-30</li>
+										<li>> 独家：小米影业解散宣发部门 宣布成立一年后刹车 12-30</li>
+										<li>> “哑巴群众”开口说话 是稿件有误还是新闻造假？ 12-30</li>
+										<li>> 要置业，看看2017全球楼市掘金路线图 12-30</li>
+										<li>> 王健林与房地产越来越远？贾跃亭与房地产越来越近 12-30</li>
+										</ul>
+									</td>
+									<td align='center'>
+										<img src="images/weixin.png" alt='weixin.png'>
+
+									</td>
+								</tr>
+
+							</tbody>
+							<tfoot>
+								<tr><td>近期专题</td></tr>
+								<tr>
+									<td align='center'>
+										<div><img src="images/1.png" alt="image1"></div>
+										教育发展基金专题
+									</td>
+									<td align='center'>
+										<div><img src="images/2.png" alt="image2"></div>
+										教育发展基金专题
+									</td>
+									<td align='center'>
+										<div><img src="images/3.png" alt="image3"></div>
+										教育发展基金专题
+									</td>
+								</tr>
+							</tfoot>
+						</table>
+					</td>
+				</tr>
+			</tbody>
+			<!--表单尾部-->
+			<tfoot>
+				<!--友情赞助-->
+				<tr><td>
+					<table border='0' cellspacing='0' width="100%"><tr bgcolor="#E1F2F9" align="center"><td>
+						<ul class="sponsor">
+							<li>文化站点</li>
+							<li>信息服务</li>
+							<li>校友会</li>
+							<li>QA系统</li>
+							<li>教务管理系统</li>
+							<li>网络教学</li>
+							<li>VPN服务</li>
+							<li>acm/oj</li>
+							<li>旧版入口</li>
+							<li>站群系统</li>
+						</ul>
+					</td></tr></table>
+				</td></tr>
+				
+				<!--页脚-->
+				<tr><td>
+					<table border='0' cellspacing='0' height="30px" width="100%">
+					<tr bgcolor="#89A9BD" align="center">
+					<td>
+						Copyright &#169; 2017 imooc.com All Rights Reserved | 京ICP备 13046642号-2
+					</td>
+					</tr>
+					</table>
+				</td></tr>
+			</tfoot>
+		</table>
+	</body>
+</html>
